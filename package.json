@@ -1,0 +1,26 @@
+{
+  "name": "curso-cypress-intermediario",
+  "version": "1.0.0",
+  "description": "scripts do curso cypress intermediário escola talking about testing",
+  "main": "index.js",
+  "scripts": {
+    "test": "cypress run"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/doamaral/curso-cypress-intermediario.git"
+  },
+  "keywords": [
+    "cypress",
+    "e2e"
+  ],
+  "author": "Lucas Amaral",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/doamaral/curso-cypress-intermediario/issues"
+  },
+  "homepage": "https://github.com/doamaral/curso-cypress-intermediario#readme",
+  "devDependencies": {
+    "cypress": "^5.5.0"
+  }
+}
