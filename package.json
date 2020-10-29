@@ -21,7 +21,8 @@
   },
   "homepage": "https://github.com/doamaral/curso-cypress-intermediario#readme",
   "devDependencies": {
-    "cypress": "^5.5.0"
+    "cypress": "^5.5.0",
+    "faker": "^5.1.0"
   },
   "dependencies": {}
 }
