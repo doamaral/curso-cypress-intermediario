@@ -12,7 +12,7 @@ describe('Create Issue', () => {
             description: faker.random.words(5)
         }
     }
-    before(() => {
+    beforeEach(() => {
         cy.login()
         cy.api_createProject(issue.project)
     })

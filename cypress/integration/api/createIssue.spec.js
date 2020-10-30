@@ -2,7 +2,7 @@
 
 const faker = require('faker')
 
-describe('Create Issue', () => {
+describe('API Create Issue', () => {
     it('successfully', () => {
         const issue = {
             title: `issue-${faker.random.uuid()}`,
@@ -19,7 +19,5 @@ describe('Create Issue', () => {
                 expect(response.body.title).to.equal(issue.title)
                 expect(response.body.description).to.equal(issue.description)
             })
-
-        
     })
 })
